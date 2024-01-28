@@ -1,0 +1,85 @@
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+:root{
+    --primaryColor : #63AB45;
+    --secenderyColor: #FF9933;
+    --textColor:#222222;
+}
+
+
+/*--------------------------------------------------------------
+# Header Style Css
+--------------------------------------------------------------*/
+
+/* header Top  */
+.top-header{
+    background-color: var(--textColor);
+    /* height: 10vh; */
+}
+.header-gmail i{
+    color: var(--primaryColor);
+    font-size: 20px;
+}
+.header-gmail span a{
+    color: white;
+}
+.header-socialIcon a{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0,0.5);
+    margin: 0 5px;
+    border-radius: 0 10px 0 10px;
+    border: 1px solid var(--primaryColor);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+.header-socialIcon  a .bx{
+    font-size: 20px;
+    line-height: 35px;
+    position: relative;
+    z-index: 10;
+    transition: color 0.5s;
+    
+}
+.header-socialIcon  a::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: -70px;
+    left: 0;
+    background:linear-gradient(-45deg, #ed1c94 , #ffec17);
+    position: absolute;
+    transition: 0.5s;
+}
+.header-socialIcon  a:hover::after{
+    top: 0;
+}
+
+.header-socialIcon  a:hover{
+    transform: translateY(-2px);
+    
+}
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/**
+* Desktop Navigation 
+*/

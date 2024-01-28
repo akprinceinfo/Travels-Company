@@ -1,0 +1,20 @@
+
+Project Name : Travel Compani
+
+Project ASSETS
+============
+- Style.css
+- Responsive.css
+- main.js
+- normalize css
+- Jquery
+- Wow Js
+- Animate CSS
+- OWL or Slick Carousel
+- Bootstrap or Tailwind
+- scroll Reveal or scroll magic
+
+
+==================
+Bootstrap version : bootstrap-5.0.2-dist
+jQuery version : jquery-3.7.1
