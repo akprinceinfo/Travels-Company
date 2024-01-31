@@ -1,0 +1,36 @@
+/* ====================================================
+                Slider / Hero Section 
+    ==================================================== */
+    @media screen and (max-width: 375px) {
+    .arrows{
+        bottom: 40%;
+        right: 40%;
+    }
+}
+    @media screen and (max-width: 960px) {
+    .arrows{
+        bottom: 40%;
+        right: 45%;
+    }
+}
+
+    @media screen and (max-width: 768px) {
+    .arrows{
+        bottom: 40%;
+        right: 45%;
+    }
+}
+
+
+    @media screen and (max-width: 678px) {
+    .thumbnail{
+        justify-content: start;
+    }
+    .slider .list .item .content h2{
+        font-size: 60px;
+    }
+    .arrows{
+        bottom: 40%;
+        right: 45%;
+    }
+}
