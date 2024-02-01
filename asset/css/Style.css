@@ -161,7 +161,7 @@ ul {
 
 /* css slider */
 .slider{
-    height: 100vh;
+    height: 82.5vh;
     margin-top: 0px;
     position: relative;
 }
@@ -201,7 +201,7 @@ ul {
     letter-spacing: 10px;
 }
 .slider .list .item .content h2{
-    font-size: 100px;
+    font-size: 70px;
     margin: 0;
 }
 .slider .list .item.active{
@@ -269,7 +269,7 @@ ul {
 }
 .thumbnail .item{
     width: 150px;
-    height: 200px;
+    height: 25vh;
     filter: brightness(.5);
     transition: .5s;
     flex-shrink: 0;
@@ -282,7 +282,7 @@ ul {
 }
 .thumbnail .item.active{
     filter: brightness(1.5);
-    height: 230px;
+    height: 30vh;
 }
 .thumbnail .item .content{
     position: absolute;
