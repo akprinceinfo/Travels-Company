@@ -149,6 +149,9 @@ ul {
     background-color: var(--primaryColor);
     color: #fff;
 }
+a.nav-link.text-uppercase:focus{
+    color: var(--primaryColor);
+}
 
 /**
 * Desktop Navigation 
@@ -161,7 +164,7 @@ ul {
 
 /* css slider */
 .slider{
-    height: 82.5vh;
+    height: 82vh;
     margin-top: 0px;
     position: relative;
 }
