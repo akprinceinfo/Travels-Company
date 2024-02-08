@@ -132,7 +132,9 @@ div.bookNowBtn a{
     border-radius: 5px;
     margin-left: 10px;
 }
-
+.headerIcon{
+    font-size: 10px;
+}
 
 /**
 * Desktop Navigation 
