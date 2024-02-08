@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+}
+div.bookNowBtn a{
+    color: #fff;
+    background-color: #63AB45;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.nav-link:hover, .nav-link.active{
+    color: black;
+}
+
+
+
+    @media screen and (max-width: 992px) {
+        
+        .navbar-nav.ms-auto.mb-2.mb-lg-0 {
+            text-align: center;
+        }
+        .navbar-nav.ms-auto.mb-2.mb-lg-0 li{
+            border-radius: 5px;
+        }
+        .navbar-nav.ms-auto.mb-2.mb-lg-0 li:hover{
+            background-color: #63AB45;
+        }
+    }   

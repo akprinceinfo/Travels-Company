@@ -125,33 +125,14 @@ ul {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-
-.headerNavber ul li a{
-    color: var(--textColor);
-}
-.headerNavber ul li a:hover{
-    color: var(--primaryColor)
-}
-
-.headerNavber button{
-    width: 130px;
-    height: 40px;
-    border-radius: 20px;
-    font-size: 13px;
-    border: 2px solid #63AB45;
-    background-color: #fff;
-    transition:  0.5s;
-}
-.headerNavber button a{
-    color: #222222;
-}
-.headerNavber button:hover {
-    background-color: var(--primaryColor);
+div.bookNowBtn a{
     color: #fff;
+    background-color: #63AB45;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
 }
-a.nav-link.text-uppercase:focus{
-    color: var(--primaryColor);
-}
+
 
 /**
 * Desktop Navigation 
@@ -276,6 +257,7 @@ a.nav-link.text-uppercase:focus{
     filter: brightness(.5);
     transition: .5s;
     flex-shrink: 0;
+    cursor: pointer;
 }
 .thumbnail .item img{
     width: 100%;
@@ -295,3 +277,4 @@ a.nav-link.text-uppercase:focus{
 .content{
     color: #fff;
 }
+
