@@ -127,13 +127,21 @@ ul {
 --------------------------------------------------------------*/
 div.bookNowBtn a{
     color: #fff;
-    background-color: #63AB45;
+    background-color: var(--primaryColor);
     padding: 8px 20px;
     border-radius: 5px;
     margin-left: 10px;
 }
 .headerIcon{
     font-size: 10px;
+}
+li.nav-item a{
+    color: var(--textColor)!important;
+}
+
+
+li.nav-item a:hover{
+    color: var(--primaryColor)!important;
 }
 
 /**
