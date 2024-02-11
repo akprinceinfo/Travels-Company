@@ -5,178 +5,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Compani</title>
+    <title>Travel Compani Header</title>
     <!-- =============== All Css ====================== -->
     <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
     <link rel="stylesheet" href="./asset/css/owl.carousel.min.css">
     <link rel="stylesheet" href="./asset/css/normalize.css">
-    <link rel="stylesheet" href="./asset/css/Responsive.css">
     <link rel="stylesheet" href="./asset/css/animate.css">
     <!-- <link rel="stylesheet" href="./asset/css/Style.css"> -->
     <link rel="stylesheet" href="./asset/css/header.css">
+    <link rel="stylesheet" href="./asset/css/Responsive.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-danger ">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="./asset/img/logo.png" alt="" srcset="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Blog
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Blog Ditels</a></li>
-                            <li><a class="dropdown-item" href="#">Blog Grid</a></li>
-                            <li><a class="dropdown-item" href="#">Blog List</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Tours
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Tours Ditels</a></li>
-                            <li><a class="dropdown-item" href="#">Tours Grid</a></li>
-                            <li><a class="dropdown-item" href="#">Tours List</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Event</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+    <header>
+        <div class="header-area">
+            <div class="container">
 
+                <div class="row  align-items-center ">
+                    <div class="col-xl-2 col-md-2 d-flex  justify-content-center ">
+                        <div class="logo">
+                            <h2>Logo</h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-md-8 d-flex align-items-center ">
+                        <nav>
+                            <ul class="d-flex  mb-0 justify-content-center ">
+                                <li class=""><a href="#">Home</a></li>
+                                <li class=""><a href="#">About</a>
+                                    <ul class="subMenu">
+                                        <li><a href="#">About 1</a></li>
+                                        <li><a href="#">About 2</a></li>
+                                        <li><a href="#">About 3</a></li>
+                                    </ul>
+                                </li>
+                                <li class=""><a href="#">Services</a>
+                                    <ul class="subMenu">
+                                        <li><a href="#">Services 1</a></li>
+                                        <li><a href="#">Services 2</a></li>
+                                        <li><a href="#">Services 3</a></li>
+                                    </ul>
+                                </li>
+                                <li class=""><a href="#">Event</a></li>
+                                <li class=""><a href="#">Gallery</a></li>
+                                <li class=""><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <div class="responsiveBtn">
+                            <input type="checkbox" id="click">
+                            <label for="click" class="checkBtn"><i class='bx bx-menu'></i></label>
+                        </div>
+                    </div>
 
-                <!-- <button class="btn btn-outline-success bg-black " type="submit">Search</button> -->
-                <div class="bookNowBtn">
-                    <a href="#">Book Now</a>
+                    <div class="col-xl-2 col-md-2 d-flex justify-content-center ">
+                        <a href="#">Contact</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
 
-    <!-- ====================================================
-                 Header Section 
-    ==================================================== -->
-    <!-- <header>
-        <div class="container">
-            <input type="checkbox" name="" id="check">
-            <div class="nav-btn">
-                <div class="nav-links">
-                    <ul>
-                        <li class="nav-link" style="--i: .6s">
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="nav-link" style="--i: .6s">
-                            <a href="#">About</a>
-                        </li>
-                        <li class="nav-link" style="--i: .85s">
-                            <a href="#">Blog<i class='bx bx-chevron-down'></i></a>
-                            <div class="dropdown">
-                                <ul>
-                                    <li class="dropdown-link">
-                                        <a href="#">Blog Ditels</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Blog Grid</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Blog List<i class="fas fa-caret-down"></i></a>
-                                        <div class="dropdown second">
-                                            <ul>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 1</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 2</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 3</a>
-                                                </li>
-
-                                                <div class="arrow"></div>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <div class="arrow"></div>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-link" style="--i: .85s">
-                            <a href="#">Tours<i class='bx bx-chevron-down'></i></a>
-                            <div class="dropdown">
-                                <ul>
-                                    <li class="dropdown-link">
-                                        <a href="#">Tours Ditels</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Tours Grid</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Tours List<i class="fas fa-caret-down"></i></a>
-                                        <div class="dropdown second">
-                                            <ul>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 1</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 2</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 3</a>
-                                                </li>
-
-                                                <div class="arrow"></div>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <div class="arrow"></div>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-link" style="--i: .6s">
-                            <a href="#">Services</a>
-                        </li>
-                        <li class="nav-link" style="--i: .6s">
-                            <a href="#">Meetings & Events</a>
-                        </li>
-                        <li class="nav-link" style="--i: .6s">
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
-
-                </div>
+    </header>
 
 
-            </div>
 
 
-        </div>
-    </header> -->
+
+
+
 
     <!-- =============== All Js Plugin ====================== -->
 

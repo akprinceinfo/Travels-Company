@@ -1,29 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+li{
+    list-style: none;
+}
+
+body{
+    background-color: rgb(221, 226, 230);
+}
+
 a{
     text-decoration: none;
 }
-div.bookNowBtn a{
-    color: #fff;
-    background-color: #63AB45;
-    padding: 8px 20px;
-    border-radius: 5px;
-    margin-left: 10px;
+
+header{
+    background-color: rgb(66, 78, 78);
+    min-height: 40px;
+}
+nav ul li{
+   margin: 0 24px;
+   position: relative;
 }
 
-.nav-link:hover, .nav-link.active{
-    color: black;
+nav ul li a{
+    color: aliceblue;
+    padding: 20px 0;
+    display: block;
+}
+nav ul li a:hover{
+    color: aqua;
+}
+
+
+nav ul li .subMenu {
+    min-width: 130px;
+    transition: 0.5s;
+	background: black;
+	position: absolute;
+	top: 120%;
+    left: 0;
+    padding: 0;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+}
+
+nav ul li:hover > .subMenu {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+nav ul li .subMenu li{
+    display: block;
+}
+
+nav ul li .subMenu li a{
+    padding: 12px 0;
 }
 
 
 
-    @media screen and (max-width: 992px) {
-        
-        .navbar-nav.ms-auto.mb-2.mb-lg-0 {
-            text-align: center;
-        }
-        .navbar-nav.ms-auto.mb-2.mb-lg-0 li{
-            border-radius: 5px;
-        }
-        .navbar-nav.ms-auto.mb-2.mb-lg-0 li:hover{
-            background-color: #63AB45;
-        }
-    }   
+
+/* -------responsiveBtn------- */
+
+.checkBtn{
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+#click{
+    display: none;
+}
+
