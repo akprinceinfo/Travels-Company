@@ -1,0 +1,432 @@
+/*
+Template Name: travel company: Website HTML Template
+*/
+/*================================================
+1. Default CSS
+2. About CSS
+
+=================================================*/
+/*================================================
+1. Default CSS
+=================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+/* Media Query Variable */
+/*CSS Variable*/
+:root {
+  /*font Variable*/
+  --ff-dm: "DM Serif Display", serif;
+  --ff-inter: 'Inter', sans-serif;
+  /*Color Variable*/
+  --primary-blue: #143959;
+  --primary-orange: #CF6E53;
+  --primary-blue-30: rgba(20, 57, 89, 0.3);
+  --primary-blue-07: rgba(20, 57, 89, 0.07);;
+  --color-white: #FFF;
+  --color-white-30: rgba(255, 255, 255, 0.30);
+  --color-white-07: rgba(255, 255, 255, 0.07);
+  --color-text-body:#777777;
+}
+
+/* Color declare  */
+.primary-color {
+  color: var(--primary-blue);
+}
+
+.primary-bg-color {
+  background-color: var(--primary-blue);
+}
+
+.pcolor-30 {
+  color: var(--primary-blue-30);
+}
+
+.pbg-color-30 {
+  background-color: var(--primary-blue-30);
+}
+
+.pcolor-07 {
+  color: var(--primary-blue-07);
+}
+
+.pbg-color-07 {
+  background-color: var(--primary-blue-07);
+}
+
+.secondary-color {
+  color: var(--primary-orange);
+}
+
+.secondary-bg-color {
+  background-color: var(--primary-orange);
+}
+
+.text-gray {
+  color: var(--color-text-body);
+}
+
+.text-bg-gray {
+  background-color: var(--color-text-body);
+}
+
+.white-30 {
+  color: var(--color-white-30);
+}
+
+.white-07 {
+  color: var(--color-white-07);
+}
+
+/* Color declare end */
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: 0 solid;
+}
+
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0;
+  font-family: var(--ff-dm);
+  text-transform: capitalize;
+  color: var(--color-text-heading);
+  font-weight: 400;
+}
+
+h2.h2 {
+  font-size: 32px;
+  line-height: 60px;
+}
+
+.title-20 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.title-32 {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.title-40 {
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.title-45 {
+  font-size: 45px;
+  line-height: 61.7px;
+}
+
+@media only screen and (max-width: 1199.98px) {
+  h2.h2 {
+    font-size: 28px;
+  }
+
+  h2.title-40 {
+    font-size: 36px;
+  }
+  
+  h2.title-45 {
+    font-size: 40px;
+  }
+
+}
+
+@media only screen and (max-width: 991.98px) {
+  h2.h2 {
+    font-size: 24px;
+  }
+
+  h2.title-40 {
+    font-size: 32px;
+  }
+  
+  h2.title-45 {
+    font-size: 36px;
+  }
+
+}
+
+h3.h3 {
+  font-size: 24px;
+  line-height: normal;
+}
+
+@media only screen and (max-width: 991.98px) {
+  h3.h3 {
+    font-size: 20px;
+  }
+}
+
+h4.h4 {
+  margin: 0;
+}
+
+html, body {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  font-family: var(--ff-dm);
+  color: var(--color-text-body);
+}
+
+p {
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 0;
+  font-family: var(--ff-inter);
+}
+
+.text-p-18 {
+  font-size: 18px;
+}
+
+.text-p-14 {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 991.98px) {
+  .text-p-18 {
+    font-size: 16px;
+  }
+
+  .text-p-14 {
+    font-size: 16px;
+  }
+}
+
+input:focus, textarea:focus, button:focus {
+  outline: none;
+}
+
+ul.custom-ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+i.bx {
+  vertical-align: middle;
+}
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.mt-120 {
+  margin-top: 120px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-22 {
+  margin-bottom: 22px;
+}
+
+.mb-120 {
+  margin-bottom: 120px;
+}
+
+.mb-18 {
+  margin-bottom: 18px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-38 {
+  margin-bottom: 38px;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+.pb-120 {
+  padding-bottom: 120px;
+}
+
+.z-index-one {
+  z-index: 1;
+}
+
+.z-index-minus-one {
+  z-index: -1;
+}
+
+.w-470 {
+  width: 470px;
+}
+
+.max-w-470 {
+  max-width: 470px;
+}
+
+@media only screen and (max-width: 991.98px) {
+  .max-w-470 {
+    max-width: 100%;
+  }
+}
+
+.max-width-728 {
+  max-width: 728px;
+}
+
+.max-width-500 {
+  max-width: 500px;
+}
+
+.height-385 {
+  height: 385px;
+}
+
+.height-542 {
+  height: 542px;
+}
+
+@media only screen and (max-width: 991.98px) {
+  .height-542 {
+    height: 385px;
+  }
+}
+
+
+
+.radious-10 {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.fit-cover {
+  object-fit: cover;
+}
+
+.blockquote-footer::before {
+  color: var(--primary-orange);
+}
+
+.section-middle {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 991.98px) {
+  .mt-120 {
+    margin-top: 60px;
+  }
+  .mb-120 {
+    margin-bottom: 60px;
+  }
+}
+
+/* Button CSS */
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  height: 80px;
+  padding: 0 43px;
+  font-size: 22px;
+  line-height: 30.16px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.button i {
+  line-height: normal;
+  font-size: 20px;
+}
+/* Button CSS End */
+
+/* Custom Scroll Bar CSS */
+body::-webkit-scrollbar {
+  width: .3em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 10px;
+}
+/* Custom Scroll Bar CSS End */
+
+/*Back to Top btn*/
+.back-to-top-btn {
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  background: #fff;
+  mix-blend-mode: exclusion;
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 36px;
+  display: none;
+  z-index: 9999;
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+}
+
+.back-to-top-btn i {
+  color: #000;
+  font-size: 18px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-text-stroke: 1px;
+}
+
+.back-to-top-btn i::before {
+  vertical-align: middle;
+}
+
+/*Back to Top btn End*/
+
+/*================================================
+2. Featured Tours
+=================================================*/
